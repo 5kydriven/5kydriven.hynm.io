@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-image: url('./memes/heart.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 1380px;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+}
+
+.container{
+    position: absolute;
+    text-align: center;
+    top: 17em;
+    left: 30em;
+    border: 3px solid rgb(245, 212, 218);
+    background-color: pink;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.audio{
+    position: absolute;
+    top: 21.9em;
+    left: 33.9em;
+}
+
+audio{
+    width: 250px;
+}
+
+img{
+    position: absolute;
+    height: 210px;
+    border-radius: 20px; 
+}
+
+#kilig{
+    bottom: 3em;
+    left: 13em;
+}
+
+#manny{
+    bottom: 1em;
+    right: 5em;
+}
+
+#valentine{
+    top: 6em;
+    left: 7em;
+}
+
+#ily{
+    top: 6em;
+    right: 7em;
+}
+
+#beat{  
+    top: 2em;
+    left: 34.5em;
+}
+
+h3{
+    bottom: 1px;
+    position: fixed; 
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+}
+@media only screen and (max-width: 500px) {
+
+    p{
+        font-size: 15px;
+        font-family: 'Varela Round', sans-serif;
+        padding: 0;
+    }
+
+    body{
+        background-image: url('./memes/heart.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img{
+        position: absolute;
+        height: 110px;
+    }
+
+    .container{
+        position: absolute;
+        left: 7em;
+        top: 10em;
+        padding-bottom: 30px;
+    }
+
+    .audio{
+        position: absolute;
+        left: 9.6em;
+        top: 12.7em;
+    }
+
+    audio{
+        height: 30px;
+        width: 200px;
+    }
+    
+    #beat{
+        left: 5em;
+        top: 2em;
+    }
+
+    #kilig{
+        top: 2em;
+        left: 20em;
+    }
+
+    #valentine{
+        top: 18em;
+        left: 2em;
+    }
+
+    #ily{
+        top: 18em;
+        right: 2em;
+    }
+
+    #manny{
+        bottom: 8em;
+        right: 10em;
+        width: 180px;
+    }
+
+}
