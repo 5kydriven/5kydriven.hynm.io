@@ -54,8 +54,8 @@ button{
 }
 
 #noChoice{
-    top: 14%;
-    left: 12%;
+    top: 18%;
+    left: 30%;
     visibility: hidden;
 }
 
@@ -73,8 +73,7 @@ button{
 
 #suicide{
     height: 90px;
-    top: 9em;
-    left: 1%;
+    top: 7em;
 }
 
 #payagKana{
@@ -83,8 +82,8 @@ button{
 }
 
 #hands{
-    left: 7.8em;
-    top: 38%;
+    left: 35%;
+    top: 41%;
     height: 10%;
 }
 
