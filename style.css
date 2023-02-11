@@ -15,7 +15,7 @@ div{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 240px;
+    min-height: 240px;
     border-radius: 20px;
 }
 
@@ -42,4 +42,29 @@ button{
 
 .picture{
     margin-top: 6%;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        padding: 20px;
+    }
+
+    img{
+        min-height: 200px;
+        border-radius: 10px;
+    }
+
+    body{
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    #yes{
+        position: absolute;
+        left: 28%;
+    }
+
+    button{
+        font-family: 'Varela Round', sans-serif;
+    }
 }
