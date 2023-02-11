@@ -1,37 +1,8 @@
-#Manny{
-    height: max-content;
-    width: max-content;
-    margin: 0 350px;
-}
-
-h2 {
-    background-color: skyblue;
-    color: black;
+div{
     text-align: center;
+    vertical-align: middle;
 }
 
-h1{
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 75px;
-}
-
-#doggo{
-    height: 500px;
-    margin: 0 400px;
-}
-
-h4{
-    background-color: lightgreen;
-    text-align: center;
-    font-size: 25px;
-}
-
-p{
-    text-align: center;
-}
-
-body{
-    background-color: khaki;
+#no{
+    position: absolute;
 }
