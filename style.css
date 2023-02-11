@@ -1,8 +1,45 @@
-div{
-    text-align: center;
-    vertical-align: middle;
+#yes{
+    position: absolute;
+    left: 41%;
 }
-
 #no{
     position: absolute;
+}
+
+div{
+    color: black;
+    text-align: center;
+}
+
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 240px;
+    border-radius: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f5f9;
+    color: #f1f5f9;
+}
+
+button{
+    padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px ;
+	padding-bottom:5px ;
+	font-weight: bold;
+	font-family: Poppins;
+	border: 2px solid red;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+.picture{
+    margin-top: 6%;
 }
