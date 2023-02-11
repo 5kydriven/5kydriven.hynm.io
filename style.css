@@ -4,17 +4,17 @@
     margin: 0;
 }
 .pic{
-    max-height: 10vh;
+    max-height: 14vh;
     border-radius: 15px;
 }
 
 body{
-    font-size: 70%;
+    font-size: 100%;
 }
 
 #question{
     text-align: center;
-    width: 49%;
+    width: 100%;
     margin-top: 25%;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
@@ -22,18 +22,18 @@ body{
 
 #button{
     text-align: center;
-    width: 40%;
-    margin-top: 1%;
+    width: 85%;
+    margin-top: 2%;
 }
 
 button{
-    padding: 2px 5px;
+    padding: 5px 10px;
     border: 2px solid rgb(253, 59, 59);
     font-family: 'Varela Round', sans-serif;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 800;
-    border-radius: 20px;
-    margin: 0px 5px;
+    border-radius: 18px;
+    margin: 0px 10px;
 }
 
 #no{
@@ -43,14 +43,14 @@ button{
 
 .pics{
     position: absolute;
-    max-height: 10vh;
+    max-height: 15vh;
     border-radius: 15px;
 }
 
 #crying{
-    top: 2em;
+    top: 1em;
     left: 1em;
-    width: 70px;
+    width: 100px;
 }
 
 #noChoice{
@@ -60,15 +60,15 @@ button{
 }
 
 #cgeNa{
-    top: 2em;
-    right: 55%;
-    height: 70px;
+    top: 1%;
+    right: 15%;
+    height: 90px;
 }
 
 #please{
-    bottom: 25em;
-    right: 54%;
-    height: 70px;
+    bottom: 19em;
+    left: 30%;
+    height: 100%;
 }
 
 #suicide{
@@ -78,13 +78,14 @@ button{
 }
 
 #payagKana{
-    bottom: 43%;
-    left: 4em;
+    bottom: 50%;
+    right: 2em;
 }
 
 #hands{
-    left: 5.5em;
-    top: 34%;
+    left: 8.5em;
+    top: 30%;
+    height: 10%;
 }
 
 #sakitAydol{
