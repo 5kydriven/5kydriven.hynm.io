@@ -15,7 +15,7 @@ body{
 #question{
     text-align: center;
     width: 100%;
-    margin-top: 25%;
+    margin-top: 35%;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
 }
@@ -66,28 +66,29 @@ button{
 }
 
 #please{
-    bottom: 19em;
+    bottom: 20%;
     left: 30%;
     height: 100%;
 }
 
 #suicide{
-    height: 50px;
+    height: 90px;
     top: 9em;
-    left: 1em;
+    left: 1%;
 }
 
 #payagKana{
-    bottom: 50%;
+    bottom: 40%;
     right: 2em;
 }
 
 #hands{
-    left: 8.5em;
-    top: 30%;
+    left: 7.8em;
+    top: 38%;
     height: 10%;
 }
 
 #sakitAydol{
-    left: 1%;
+    left: 3%;
+    top: 44%;
 }
