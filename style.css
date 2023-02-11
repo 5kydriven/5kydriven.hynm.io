@@ -47,9 +47,6 @@ button{
 }
 
 @media only screen and (max-width: 600px) {
-    h1{
-        padding: 20px;
-    }
 
     img{
         min-height: 100px;
