@@ -7,15 +7,16 @@ const img5 = document.getElementById('sakitAydol');
 const img6 = document.getElementById('suicide');
 const img7 = document.getElementById('payagKana');
 const img8 = document.getElementById('noChoice');
+const img9 = document.getElementById('aydol');
 
 var n = document.getElementById("no");
 let click = 0;
         
 //random position for no button
 function change() {
-    var i = Math.floor(Math.random()*400)+1;
-    var j = Math.floor(Math.random()*400)+1;
-        n.style.right = i + "px";
+    var i = Math.floor(Math.random()*330)+1;
+    var j = Math.floor(Math.random()*500)+1;
+        n.style.left = i + "px";
         n.style.top = j + "px";
     }
         
@@ -45,13 +46,13 @@ n.addEventListener("click", function(){
     } else {
         n.style.visibility = "hidden";
         img1.style.visibility = "hidden";
-        img2.style.visibility = "hidden";
         img3.style.visibility = "hidden";
         img4.style.visibility = "hidden";
         img5.style.visibility = "hidden";
         img6.style.visibility = "hidden";
         img7.style.visibility = "hidden";
         img8.style.visibility = "visible";
-        document.getElementById('p').innerHTML = "Be my VALENTINE!"
+        img9.style.visibility = "hidden";
+        document.getElementById("p").innerHTML = "Be my VALENTINE!";
     }
 });
