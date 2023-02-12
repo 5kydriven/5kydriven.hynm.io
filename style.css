@@ -46,6 +46,7 @@ button{
     position: absolute;
     max-height: 15vh;
     border-radius: 15px;
+    visibility: hidden;
 }
 
 #crying{
@@ -57,7 +58,6 @@ button{
 #noChoice{
     top: 18%;
     left: 30%;
-    visibility: hidden;
 }
 
 #cgeNa{
