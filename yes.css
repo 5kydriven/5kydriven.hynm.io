@@ -71,11 +71,10 @@ footer{
     font-size: 60%;
 }
 
-@media only screen and (min-width: 1020px){
+@media only screen and (min-width: 1440px){
     .container{
         padding: 3% 1%;
-        margin: 19% 30% 0% 32%; 
-        
+        margin: 13% 30% 0% 32%; 
     }
 
     .pics{
