@@ -1,3 +1,5 @@
+alert("Note: Not all size of screen is compatible, If the design is ok means special ka yiee");
+
 //images
 const img1 = document.getElementById('crying');
 const img2 = document.getElementById('hands');
