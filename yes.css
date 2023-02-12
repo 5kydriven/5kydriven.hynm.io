@@ -1,142 +1,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+*{
+    margin: 0;
+}
+
 body{
     background-image: url('./memes/heart.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    max-width: 1380px;
 }
 
 p{
     font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    padding: 15px 15px;
+    font-size: 100%;
 }
 
 .container{
-    position: absolute;
-    text-align: center;
-    top: 17em;
-    left: 30em;
     border: 3px solid rgb(245, 212, 218);
     background-color: pink;
-    border-radius: 20px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.audio{
-    position: absolute;
-    top: 21.9em;
-    left: 33.9em;
+    border-radius: 20px; 
+    text-align: center;
+    padding: 5% 5%;
+    margin: 45% 10% 0% 10%;
 }
 
 audio{
-    width: 250px;
+    height: 2em;
+    width: 80%;
+    margin-top: 5%;  
 }
 
-img{
+.pics{
     position: absolute;
-    height: 210px;
-    border-radius: 20px; 
-}
-
-#kilig{
-    bottom: 3em;
-    left: 13em;
+    height: 20vh;
+    border-radius: 10px;
 }
 
 #manny{
-    bottom: 1em;
-    right: 5em;
-}
-
-#valentine{
-    top: 6em;
-    left: 7em;
+    top: 1%;
+    left: 20%
 }
 
 #ily{
-    top: 6em;
-    right: 7em;
+    bottom: 10%;
+    left: 5%;
 }
 
-#beat{  
-    top: 2em;
-    left: 34.5em;
+#valentine{
+    bottom: 10%;
+    right: 5%;
 }
 
-h3{
-    bottom: 1px;
-    position: fixed; 
+#beat{
+    right: 5%;
+}
+
+#kilig{
+    bottom: 35%;
+    left: 2em;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 30%;
     font-family: 'Varela Round', sans-serif;
-    font-size: 10px;
+    font-weight: bold;
+    font-size: 60%;
 }
-@media only screen and (max-width: 500px) {
 
-    p{
-        font-size: 15px;
-        font-family: 'Varela Round', sans-serif;
-        padding: 0;
-    }
-
-    body{
-        background-image: url('./memes/heart.gif');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    img{
-        position: absolute;
-        height: 110px;
-    }
-
+@media only screen and (min-width: 1020px){
     .container{
-        position: absolute;
-        left: 7em;
-        top: 10em;
-        padding-bottom: 30px;
+        padding: 3% 1%;
+        margin: 19% 30% 0% 32%; 
+        
     }
 
-    .audio{
-        position: absolute;
-        left: 9.6em;
-        top: 12.7em;
-    }
-
-    audio{
-        height: 30px;
-        width: 200px;
-    }
-    
-    #beat{
-        left: 5em;
-        top: 2em;
-    }
-
-    #kilig{
-        top: 2em;
-        left: 20em;
-    }
-
-    #valentine{
-        top: 18em;
-        left: 2em;
-    }
-
-    #ily{
-        top: 18em;
-        right: 2em;
+    .pics{
+        height: 30%;
     }
 
     #manny{
-        bottom: 8em;
-        right: 10em;
-        width: 180px;
+        top: 59%;
+        left: 34%;
     }
 
+    #beat{
+        top: 5%;
+        right: 17%;
+    }
+
+    #kilig{
+        top: 5%;
+        left: 15%;
+        z-index: -1;
+    }
+
+    #valentine{
+        bottom: 35%;
+        right: 8%;
+    }
+
+    #ily{
+        bottom: 25%;
+        left: 5%;
+    }
+
+    footer{
+        left: 45%;
+    }
 }
