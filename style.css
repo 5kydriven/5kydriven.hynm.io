@@ -14,16 +14,17 @@ body{
 
 #question{
     text-align: center;
-    width: 100%;
     margin-top: 35%;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
 }
 
-#button{
-    text-align: center;
-    width: 85%;
-    margin-top: 2%;
+p{
+    padding: 1px;
+}
+
+#button{ 
+    margin: 2% 30% 0% 32%;
 }
 
 button{
@@ -73,7 +74,7 @@ button{
 
 #suicide{
     height: 90px;
-    top: 7em;
+    top: 20%;
 }
 
 #payagKana{
@@ -90,4 +91,13 @@ button{
 #sakitAydol{
     left: 3%;
     top: 44%;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 30%;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 60%;
 }
