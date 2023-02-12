@@ -54,5 +54,6 @@ n.addEventListener("click", function(){
         img8.style.visibility = "visible";
         img9.style.visibility = "hidden";
         document.getElementById("p").innerHTML = "Be my VALENTINE!";
+        document.getElementById("yes").innerText = "OK";
     }
 });
