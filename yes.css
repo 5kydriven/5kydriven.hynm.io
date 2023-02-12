@@ -71,6 +71,46 @@ footer{
     font-size: 60%;
 }
 
+@media only screen and (min-width: 840px){
+    .container{
+        margin: 30% 30% 0% 30%;
+        padding: 1% 1%;
+    }
+
+    .pics{
+        height: 200px;
+    }
+
+    #manny{
+        top: 5%;
+        left: 52%;
+    }
+
+    #kilig{
+        top: 5%;
+        left: 10%;
+    }
+
+    #ily{
+        bottom: 8%;
+        left: 5%;
+    }
+
+    #valentine{
+        bottom: 6%;
+        right: 6%;
+    }
+
+    #beat{
+        bottom: 35%;
+        left: 38%;
+    }
+
+    footer{
+        left: 45%;
+    }
+}
+
 @media only screen and (min-width: 1440px){
     .container{
         padding: 3% 1%;
