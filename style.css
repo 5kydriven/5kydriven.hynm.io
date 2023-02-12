@@ -114,9 +114,9 @@ footer{
     }
 }
 
-@media only screen and (min-width: 1020px){
+@media only screen and (min-width: 1440px){
     #question{
-        margin-top: 17%;
+        margin-top: 12%;
         font-family: 'Varela Round', sans-serif;
         word-spacing: 1.4px;
         font-size: 25px;
@@ -127,14 +127,14 @@ footer{
     }
 
     #button{
-        margin: 1% 23% 0% 29%;
+        margin: 1% 25% 0% 26%;
     }
 
     button{
         font-weight: bold;
         font-family: 'Varela Round', sans-serif;
         border: 2px solid rgb(253, 59, 59);
-        margin: 0% -26% 0% 19%;
+        margin: 0% -48% 0% 30%;
         border-radius: 10px;
         padding: 7px 27px;
     }
@@ -143,13 +143,13 @@ footer{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-height: 100%;
+        max-height: 50vh;
         border-radius: 20px;
     }
 
     #hands{
-        left: 40%;
-        top: 68%;
+        left: 42%;
+        top: 69%;
     }
     
     .pics{
@@ -158,9 +158,9 @@ footer{
     }
 
     #noChoice{
-        top: 33%;
+        top: 20%;
         left: 38%;
-        height: 10em;
+        height: 15em;
     }
 
     #crying{
@@ -174,27 +174,29 @@ footer{
     }
 
     #payagKana{
-        height: 13em;
+        height: 15em;
+        right: 20%;
     }
 
     #please{
-        height: 13em;
-        left: 63%;
-        top: 67%;
+        height: 15em;
+        left: 68%;
+        top: 61%;
     }
 
     #suicide{
-        height: 10em;
-        left: 5em;
-        top: 14em;
+        height: 16em;
+        left: 17em;
+        top: 5em;
     }
 
     footer{
-        left: 42%;
+        left: 46%;
     }
 
     #sakitAydol{
-            left: 7%;
-            top: 60%;
+        left: 12%;
+        top: 55%;
+        height: 17em;
     }
 }
