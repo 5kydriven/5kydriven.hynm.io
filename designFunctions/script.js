@@ -14,6 +14,9 @@ btn.addEventListener('click', () =>{
 xbtn.addEventListener('click', () => {
     modal.classList.remove('show');
     btn.classList.remove('show');
-    btn.innerHTML = 'April Fools';
+    btn.innerHTML = 'I hope your motivated ;)';
     btn.style.pointerEvents = 'none';
+    btn.style.padding = "20px 30px";
+    btn.style.borderRadius = "5px";
+    btn.style.fontSize = "20px";
 })
