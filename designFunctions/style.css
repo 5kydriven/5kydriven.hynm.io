@@ -121,7 +121,7 @@ audio{
 
 @media  screen and (max-width: 100vw) {
     #container{
-        width: 40vw;
+        width: 80vw;
         height: 40vh;
         max-width: 100%;
     }
@@ -146,7 +146,7 @@ audio{
     }
 
     #container p{
-        font-size: 22px;
+        font-size: 17px;
         font-weight: bold;
     }
 }
