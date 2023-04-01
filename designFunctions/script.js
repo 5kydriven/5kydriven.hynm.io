@@ -3,7 +3,7 @@ var modal = document.getElementById('container');
 var btn = document.getElementById('btn');
 var xbtn = document.getElementById('xbtn');
 
-alert('Warning! Audio Highly Addicted');
+alert('Voice message ahead');
 
 btn.addEventListener('click', () =>{
     x.play();
